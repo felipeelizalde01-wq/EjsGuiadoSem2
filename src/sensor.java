@@ -4,12 +4,15 @@ public class sensor {
     public double lectura;
 
     public void mostrarInformacion() {
+        System.out.println("Mostrando Información");
         System.out.println("Nombre: " + nombre);
         System.out.println("Tipo: " + tipo);
         System.out.println("Lectura: " + lectura);
     }
 
     void mostrarLectura() {
+        System.out.println("Mostrando lectura");
+
         System.out.println("La lectura actual de " + nombre + " es: " + lectura);
     }
 
